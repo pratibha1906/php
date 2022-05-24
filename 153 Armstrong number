@@ -1,0 +1,22 @@
+<?php
+function armstrong_number($num)
+{ 
+ $s1=strlen($num);
+$sum=0;
+$num=(string)$num;
+for($i=0;$i<$s1;$i++)
+{
+  $sum=$sum+pow((string)$num{$i},$s1);
+
+}
+if((string)$sum==(string)$num)
+{
+  return "true";
+}
+else
+{
+  return "false";
+}
+}
+echo"Is 153 Armstrong number?".armstrong_number(153);
+?>
