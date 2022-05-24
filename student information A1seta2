@@ -1,0 +1,15 @@
+<?php
+class student
+{
+ public $name='xyz';
+ public $rno=11;
+ public $address='abc';
+}
+$a=new student();
+echo $a->name;
+echo "<br>";
+echo $a->rno;
+echo "<br>";
+echo $a->address;
+echo "<br>";
+?>
